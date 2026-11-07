@@ -1,0 +1,8 @@
+__pycache__/
+.pytest_cache/
+.venv/
+cuda13/
+build/
+*.egg-info/
+*.so
+results/ncu/*.ncu-rep

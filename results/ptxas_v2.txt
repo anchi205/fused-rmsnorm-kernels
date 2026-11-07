@@ -1,0 +1,141 @@
+bwd_kernel       bf16  VEC= 1 ITERS= 1 ( 1 elem/thr)  regs=  48  spill_st/ld=0/0 B
+bwd_kernel       bf16  VEC= 1 ITERS= 2 ( 2 elem/thr)  regs=  34  spill_st/ld=0/0 B
+bwd_kernel       bf16  VEC= 1 ITERS= 4 ( 4 elem/thr)  regs=  59  spill_st/ld=0/0 B
+bwd_kernel       bf16  VEC= 1 ITERS= 8 ( 8 elem/thr)  regs=  62  spill_st/ld=0/0 B
+bwd_kernel       bf16  VEC= 1 ITERS=16 (16 elem/thr)  regs= 128  spill_st/ld=0/0 B
+bwd_kernel       bf16  VEC= 1 ITERS=32 (32 elem/thr)  regs= 128  spill_st/ld=0/0 B
+bwd_kernel       bf16  VEC= 1 ITERS=64 (64 elem/thr)  regs=  40  spill_st/ld=1072/1228 B
+bwd_kernel       bf16  VEC= 8 ITERS= 1 ( 8 elem/thr)  regs=  40  spill_st/ld=0/0 B
+bwd_kernel       bf16  VEC= 8 ITERS= 2 (16 elem/thr)  regs=  64  spill_st/ld=0/0 B
+bwd_kernel       bf16  VEC= 8 ITERS= 4 (32 elem/thr)  regs= 124  spill_st/ld=0/0 B
+bwd_kernel       bf16  VEC= 8 ITERS= 8 (64 elem/thr)  regs=  40  spill_st/ld=1100/1096 B
+bwd_kernel       fp16  VEC= 1 ITERS= 1 ( 1 elem/thr)  regs=  48  spill_st/ld=0/0 B
+bwd_kernel       fp16  VEC= 1 ITERS= 2 ( 2 elem/thr)  regs=  34  spill_st/ld=0/0 B
+bwd_kernel       fp16  VEC= 1 ITERS= 4 ( 4 elem/thr)  regs=  59  spill_st/ld=0/0 B
+bwd_kernel       fp16  VEC= 1 ITERS= 8 ( 8 elem/thr)  regs=  62  spill_st/ld=0/0 B
+bwd_kernel       fp16  VEC= 1 ITERS=16 (16 elem/thr)  regs= 128  spill_st/ld=0/0 B
+bwd_kernel       fp16  VEC= 1 ITERS=32 (32 elem/thr)  regs= 128  spill_st/ld=0/0 B
+bwd_kernel       fp16  VEC= 1 ITERS=64 (64 elem/thr)  regs=  40  spill_st/ld=1076/1232 B
+bwd_kernel       fp16  VEC= 8 ITERS= 1 ( 8 elem/thr)  regs=  40  spill_st/ld=0/0 B
+bwd_kernel       fp16  VEC= 8 ITERS= 2 (16 elem/thr)  regs=  63  spill_st/ld=0/0 B
+bwd_kernel       fp16  VEC= 8 ITERS= 4 (32 elem/thr)  regs= 126  spill_st/ld=0/0 B
+bwd_kernel       fp16  VEC= 8 ITERS= 8 (64 elem/thr)  regs=  40  spill_st/ld=1072/1068 B
+bwd_kernel       fp32  VEC= 1 ITERS= 1 ( 1 elem/thr)  regs=  40  spill_st/ld=0/0 B
+bwd_kernel       fp32  VEC= 1 ITERS= 2 ( 2 elem/thr)  regs=  35  spill_st/ld=0/0 B
+bwd_kernel       fp32  VEC= 1 ITERS= 4 ( 4 elem/thr)  regs=  60  spill_st/ld=0/0 B
+bwd_kernel       fp32  VEC= 1 ITERS= 8 ( 8 elem/thr)  regs=  64  spill_st/ld=0/0 B
+bwd_kernel       fp32  VEC= 1 ITERS=16 (16 elem/thr)  regs= 128  spill_st/ld=0/0 B
+bwd_kernel       fp32  VEC= 1 ITERS=32 (32 elem/thr)  regs= 127  spill_st/ld=0/0 B
+bwd_kernel       fp32  VEC= 1 ITERS=64 (64 elem/thr)  regs=  40  spill_st/ld=1084/1304 B
+bwd_kernel       fp32  VEC= 4 ITERS= 1 ( 4 elem/thr)  regs=  31  spill_st/ld=0/0 B
+bwd_kernel       fp32  VEC= 4 ITERS= 2 ( 8 elem/thr)  regs=  56  spill_st/ld=0/0 B
+bwd_kernel       fp32  VEC= 4 ITERS= 4 (16 elem/thr)  regs=  63  spill_st/ld=0/0 B
+bwd_kernel       fp32  VEC= 4 ITERS= 8 (32 elem/thr)  regs= 126  spill_st/ld=0/0 B
+bwd_kernel       fp32  VEC= 4 ITERS=16 (64 elem/thr)  regs= 128  spill_st/ld=572/568 B
+bwd_kernel       fp64  VEC= 1 ITERS= 1 ( 1 elem/thr)  regs=  40  spill_st/ld=0/0 B
+bwd_kernel       fp64  VEC= 1 ITERS= 2 ( 2 elem/thr)  regs=  34  spill_st/ld=0/0 B
+bwd_kernel       fp64  VEC= 1 ITERS= 4 ( 4 elem/thr)  regs=  60  spill_st/ld=0/0 B
+bwd_kernel       fp64  VEC= 1 ITERS= 8 ( 8 elem/thr)  regs=  64  spill_st/ld=0/0 B
+bwd_kernel       fp64  VEC= 1 ITERS=16 (16 elem/thr)  regs= 127  spill_st/ld=0/0 B
+bwd_kernel       fp64  VEC= 1 ITERS=32 (32 elem/thr)  regs= 127  spill_st/ld=0/0 B
+bwd_kernel       fp64  VEC= 1 ITERS=64 (64 elem/thr)  regs=  64  spill_st/ld=912/956 B
+bwd_kernel       fp64  VEC= 2 ITERS= 1 ( 2 elem/thr)  regs=  30  spill_st/ld=0/0 B
+bwd_kernel       fp64  VEC= 2 ITERS= 2 ( 4 elem/thr)  regs=  54  spill_st/ld=0/0 B
+bwd_kernel       fp64  VEC= 2 ITERS= 4 ( 8 elem/thr)  regs=  54  spill_st/ld=0/0 B
+bwd_kernel       fp64  VEC= 2 ITERS= 8 (16 elem/thr)  regs= 120  spill_st/ld=0/0 B
+bwd_kernel       fp64  VEC= 2 ITERS=16 (32 elem/thr)  regs= 120  spill_st/ld=0/0 B
+bwd_kernel       fp64  VEC= 2 ITERS=32 (64 elem/thr)  regs=  40  spill_st/ld=976/932 B
+bwd_kernel+dso   bf16  VEC= 1 ITERS= 1 ( 1 elem/thr)  regs=  48  spill_st/ld=0/0 B
+bwd_kernel+dso   bf16  VEC= 1 ITERS= 2 ( 2 elem/thr)  regs=  35  spill_st/ld=0/0 B
+bwd_kernel+dso   bf16  VEC= 1 ITERS= 4 ( 4 elem/thr)  regs=  64  spill_st/ld=0/0 B
+bwd_kernel+dso   bf16  VEC= 1 ITERS= 8 ( 8 elem/thr)  regs= 128  spill_st/ld=0/0 B
+bwd_kernel+dso   bf16  VEC= 1 ITERS=16 (16 elem/thr)  regs= 128  spill_st/ld=0/0 B
+bwd_kernel+dso   bf16  VEC= 1 ITERS=32 (32 elem/thr)  regs= 128  spill_st/ld=0/0 B
+bwd_kernel+dso   bf16  VEC= 1 ITERS=64 (64 elem/thr)  regs=  40  spill_st/ld=1248/1352 B
+bwd_kernel+dso   bf16  VEC= 8 ITERS= 1 ( 8 elem/thr)  regs=  50  spill_st/ld=0/0 B
+bwd_kernel+dso   bf16  VEC= 8 ITERS= 2 (16 elem/thr)  regs=  64  spill_st/ld=8/8 B
+bwd_kernel+dso   bf16  VEC= 8 ITERS= 4 (32 elem/thr)  regs= 122  spill_st/ld=0/0 B
+bwd_kernel+dso   bf16  VEC= 8 ITERS= 8 (64 elem/thr)  regs=  40  spill_st/ld=1080/1076 B
+bwd_kernel+dso   fp16  VEC= 1 ITERS= 1 ( 1 elem/thr)  regs=  48  spill_st/ld=0/0 B
+bwd_kernel+dso   fp16  VEC= 1 ITERS= 2 ( 2 elem/thr)  regs=  35  spill_st/ld=0/0 B
+bwd_kernel+dso   fp16  VEC= 1 ITERS= 4 ( 4 elem/thr)  regs=  64  spill_st/ld=0/0 B
+bwd_kernel+dso   fp16  VEC= 1 ITERS= 8 ( 8 elem/thr)  regs= 128  spill_st/ld=0/0 B
+bwd_kernel+dso   fp16  VEC= 1 ITERS=16 (16 elem/thr)  regs= 128  spill_st/ld=0/0 B
+bwd_kernel+dso   fp16  VEC= 1 ITERS=32 (32 elem/thr)  regs= 128  spill_st/ld=0/0 B
+bwd_kernel+dso   fp16  VEC= 1 ITERS=64 (64 elem/thr)  regs=  40  spill_st/ld=1248/1352 B
+bwd_kernel+dso   fp16  VEC= 8 ITERS= 1 ( 8 elem/thr)  regs=  48  spill_st/ld=0/0 B
+bwd_kernel+dso   fp16  VEC= 8 ITERS= 2 (16 elem/thr)  regs=  64  spill_st/ld=0/0 B
+bwd_kernel+dso   fp16  VEC= 8 ITERS= 4 (32 elem/thr)  regs= 126  spill_st/ld=0/0 B
+bwd_kernel+dso   fp16  VEC= 8 ITERS= 8 (64 elem/thr)  regs=  40  spill_st/ld=1076/1072 B
+bwd_kernel+dso   fp32  VEC= 1 ITERS= 1 ( 1 elem/thr)  regs=  50  spill_st/ld=0/0 B
+bwd_kernel+dso   fp32  VEC= 1 ITERS= 2 ( 2 elem/thr)  regs=  35  spill_st/ld=0/0 B
+bwd_kernel+dso   fp32  VEC= 1 ITERS= 4 ( 4 elem/thr)  regs=  54  spill_st/ld=0/0 B
+bwd_kernel+dso   fp32  VEC= 1 ITERS= 8 ( 8 elem/thr)  regs= 128  spill_st/ld=0/0 B
+bwd_kernel+dso   fp32  VEC= 1 ITERS=16 (16 elem/thr)  regs= 128  spill_st/ld=0/0 B
+bwd_kernel+dso   fp32  VEC= 1 ITERS=32 (32 elem/thr)  regs= 128  spill_st/ld=0/0 B
+bwd_kernel+dso   fp32  VEC= 1 ITERS=64 (64 elem/thr)  regs=  64  spill_st/ld=1056/1072 B
+bwd_kernel+dso   fp32  VEC= 4 ITERS= 1 ( 4 elem/thr)  regs=  33  spill_st/ld=0/0 B
+bwd_kernel+dso   fp32  VEC= 4 ITERS= 2 ( 8 elem/thr)  regs=  59  spill_st/ld=0/0 B
+bwd_kernel+dso   fp32  VEC= 4 ITERS= 4 (16 elem/thr)  regs=  64  spill_st/ld=0/0 B
+bwd_kernel+dso   fp32  VEC= 4 ITERS= 8 (32 elem/thr)  regs= 128  spill_st/ld=0/0 B
+bwd_kernel+dso   fp32  VEC= 4 ITERS=16 (64 elem/thr)  regs= 128  spill_st/ld=572/568 B
+bwd_kernel+dso   fp64  VEC= 1 ITERS= 1 ( 1 elem/thr)  regs=  23  spill_st/ld=0/0 B
+bwd_kernel+dso   fp64  VEC= 1 ITERS= 2 ( 2 elem/thr)  regs=  36  spill_st/ld=0/0 B
+bwd_kernel+dso   fp64  VEC= 1 ITERS= 4 ( 4 elem/thr)  regs=  40  spill_st/ld=0/0 B
+bwd_kernel+dso   fp64  VEC= 1 ITERS= 8 ( 8 elem/thr)  regs= 128  spill_st/ld=0/0 B
+bwd_kernel+dso   fp64  VEC= 1 ITERS=16 (16 elem/thr)  regs= 125  spill_st/ld=0/0 B
+bwd_kernel+dso   fp64  VEC= 1 ITERS=32 (32 elem/thr)  regs= 128  spill_st/ld=0/0 B
+bwd_kernel+dso   fp64  VEC= 1 ITERS=64 (64 elem/thr)  regs=  40  spill_st/ld=1240/1400 B
+bwd_kernel+dso   fp64  VEC= 2 ITERS= 1 ( 2 elem/thr)  regs=  29  spill_st/ld=0/0 B
+bwd_kernel+dso   fp64  VEC= 2 ITERS= 2 ( 4 elem/thr)  regs=  54  spill_st/ld=0/0 B
+bwd_kernel+dso   fp64  VEC= 2 ITERS= 4 ( 8 elem/thr)  regs=  58  spill_st/ld=0/0 B
+bwd_kernel+dso   fp64  VEC= 2 ITERS= 8 (16 elem/thr)  regs= 120  spill_st/ld=0/0 B
+bwd_kernel+dso   fp64  VEC= 2 ITERS=16 (32 elem/thr)  regs= 120  spill_st/ld=0/0 B
+bwd_kernel+dso   fp64  VEC= 2 ITERS=32 (64 elem/thr)  regs=  40  spill_st/ld=976/932 B
+dw_reduce_kernel bf16                                  regs=  40  spill_st/ld=0/0 B
+dw_reduce_kernel fp16                                  regs=  40  spill_st/ld=0/0 B
+dw_reduce_kernel fp32                                  regs=  40  spill_st/ld=0/0 B
+dw_reduce_kernel fp64                                  regs=  40  spill_st/ld=0/0 B
+fwd_kernel       bf16  VEC= 1 ITERS= 1 ( 1 elem/thr)  regs=  20  spill_st/ld=0/0 B
+fwd_kernel       bf16  VEC= 1 ITERS= 2 ( 2 elem/thr)  regs=  22  spill_st/ld=0/0 B
+fwd_kernel       bf16  VEC= 1 ITERS= 4 ( 4 elem/thr)  regs=  34  spill_st/ld=0/0 B
+fwd_kernel       bf16  VEC= 1 ITERS= 8 ( 8 elem/thr)  regs=  54  spill_st/ld=0/0 B
+fwd_kernel       bf16  VEC= 1 ITERS=16 (16 elem/thr)  regs=  64  spill_st/ld=0/0 B
+fwd_kernel       bf16  VEC= 1 ITERS=32 (32 elem/thr)  regs=  64  spill_st/ld=40/76 B
+fwd_kernel       bf16  VEC= 8 ITERS= 1 ( 8 elem/thr)  regs=  27  spill_st/ld=0/0 B
+fwd_kernel       bf16  VEC= 8 ITERS= 2 (16 elem/thr)  regs=  35  spill_st/ld=0/0 B
+fwd_kernel       bf16  VEC= 8 ITERS= 4 (32 elem/thr)  regs=  53  spill_st/ld=0/0 B
+fwd_kernel       fp16  VEC= 1 ITERS= 1 ( 1 elem/thr)  regs=  20  spill_st/ld=0/0 B
+fwd_kernel       fp16  VEC= 1 ITERS= 2 ( 2 elem/thr)  regs=  25  spill_st/ld=0/0 B
+fwd_kernel       fp16  VEC= 1 ITERS= 4 ( 4 elem/thr)  regs=  30  spill_st/ld=0/0 B
+fwd_kernel       fp16  VEC= 1 ITERS= 8 ( 8 elem/thr)  regs=  52  spill_st/ld=0/0 B
+fwd_kernel       fp16  VEC= 1 ITERS=16 (16 elem/thr)  regs=  64  spill_st/ld=4/8 B
+fwd_kernel       fp16  VEC= 1 ITERS=32 (32 elem/thr)  regs=  64  spill_st/ld=72/120 B
+fwd_kernel       fp16  VEC= 8 ITERS= 1 ( 8 elem/thr)  regs=  26  spill_st/ld=0/0 B
+fwd_kernel       fp16  VEC= 8 ITERS= 2 (16 elem/thr)  regs=  40  spill_st/ld=0/0 B
+fwd_kernel       fp16  VEC= 8 ITERS= 4 (32 elem/thr)  regs=  55  spill_st/ld=0/0 B
+fwd_kernel       fp32  VEC= 1 ITERS= 1 ( 1 elem/thr)  regs=  18  spill_st/ld=0/0 B
+fwd_kernel       fp32  VEC= 1 ITERS= 2 ( 2 elem/thr)  regs=  21  spill_st/ld=0/0 B
+fwd_kernel       fp32  VEC= 1 ITERS= 4 ( 4 elem/thr)  regs=  30  spill_st/ld=0/0 B
+fwd_kernel       fp32  VEC= 1 ITERS= 8 ( 8 elem/thr)  regs=  52  spill_st/ld=0/0 B
+fwd_kernel       fp32  VEC= 1 ITERS=16 (16 elem/thr)  regs=  64  spill_st/ld=0/0 B
+fwd_kernel       fp32  VEC= 1 ITERS=32 (32 elem/thr)  regs=  64  spill_st/ld=52/100 B
+fwd_kernel       fp32  VEC= 4 ITERS= 1 ( 4 elem/thr)  regs=  22  spill_st/ld=0/0 B
+fwd_kernel       fp32  VEC= 4 ITERS= 2 ( 8 elem/thr)  regs=  34  spill_st/ld=0/0 B
+fwd_kernel       fp32  VEC= 4 ITERS= 4 (16 elem/thr)  regs=  58  spill_st/ld=0/0 B
+fwd_kernel       fp32  VEC= 4 ITERS= 8 (32 elem/thr)  regs=  64  spill_st/ld=0/0 B
+fwd_kernel       fp64  VEC= 1 ITERS= 1 ( 1 elem/thr)  regs=  20  spill_st/ld=0/0 B
+fwd_kernel       fp64  VEC= 1 ITERS= 2 ( 2 elem/thr)  regs=  23  spill_st/ld=0/0 B
+fwd_kernel       fp64  VEC= 1 ITERS= 4 ( 4 elem/thr)  regs=  36  spill_st/ld=0/0 B
+fwd_kernel       fp64  VEC= 1 ITERS= 8 ( 8 elem/thr)  regs=  61  spill_st/ld=0/0 B
+fwd_kernel       fp64  VEC= 1 ITERS=16 (16 elem/thr)  regs=  64  spill_st/ld=12/24 B
+fwd_kernel       fp64  VEC= 1 ITERS=32 (32 elem/thr)  regs=  64  spill_st/ld=68/148 B
+fwd_kernel       fp64  VEC= 2 ITERS= 1 ( 2 elem/thr)  regs=  26  spill_st/ld=0/0 B
+fwd_kernel       fp64  VEC= 2 ITERS= 2 ( 4 elem/thr)  regs=  30  spill_st/ld=0/0 B
+fwd_kernel       fp64  VEC= 2 ITERS= 4 ( 8 elem/thr)  regs=  42  spill_st/ld=0/0 B
+fwd_kernel       fp64  VEC= 2 ITERS= 8 (16 elem/thr)  regs=  64  spill_st/ld=0/0 B
+fwd_kernel       fp64  VEC= 2 ITERS=16 (32 elem/thr)  regs=  64  spill_st/ld=12/12 B
+fwd_naive_kernel bf16                                  regs=  33  spill_st/ld=0/0 B
+fwd_naive_kernel fp16                                  regs=  33  spill_st/ld=0/0 B
+fwd_naive_kernel fp32                                  regs=  33  spill_st/ld=0/0 B
+fwd_naive_kernel fp64                                  regs=  40  spill_st/ld=0/0 B

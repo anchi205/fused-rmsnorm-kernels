@@ -1,0 +1,10 @@
+{
+  "gpu": "NVIDIA GB10",
+  "sms": 48,
+  "l2_mb": 24.0,
+  "torch": "2.14.1+cu130",
+  "triton": "3.8.0",
+  "dtype": "bfloat16",
+  "copy_gbs": 242.178463504026,
+  "fp32_tflops": 19.238892706265265
+}
